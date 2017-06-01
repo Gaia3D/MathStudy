@@ -1,4 +1,4 @@
-# 제 1강 - Vector와 Metrix
+# 제 1강 - Vector와 Matrix
 ## 수업요약
 - 수학적, 프로그래밍적인 Vector의 의미를 배우고 
 - Vector의 이동, 회전, 스케일, Transform, Normalize를 이해한다.
