@@ -7,7 +7,7 @@
 - 두 벡터가 이루는 각을 구하고, 두 벡터에 모두 직각되는 벡터를 구한다.
 
 ## 수업결과물
-- 시작점과 끝점을 가지면 다음 기능을 가지는 Vector 객체를 구현한다.
+- 시작점과 끝점을 가지면 다음 기능을 가지는 Line 객체를 구현한다.
   - translate, rotate, scale, transform
   - +, -, dotProduct, crossProduct
   - length, normalize, distanceTo, intersectWith
