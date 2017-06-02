@@ -10,8 +10,9 @@
 - 시작점과 끝점을 가지면 다음 기능을 가지는 Line 객체를 구현한다.
   - translate, rotate, scale, transform
   - +, -, dotProduct, crossProduct
-  - length, normalize, distanceTo, intersectWith
+  - length, normalize
   - angleWith, getNormalVector
+  - distanceTo, intersectWith
 
 ## 참고 자료 링크
 - 선형대수학이란? 
@@ -20,5 +21,7 @@
   - https://en.wikipedia.org/wiki/Transformation_matrix
 - 내적, 외적, 각도, Normal Vector 
   - http://darkpgmr.tistory.com/121
+- 거리
+  - http://www.faqs.org/faqs/graphics/algorithms-faq/ 1.02
 - 교점
   - http://bowbowbow.tistory.com/17
