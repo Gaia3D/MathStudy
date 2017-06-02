@@ -12,3 +12,11 @@
   - +, -, dotProduct, crossProduct
   - length, normalize, distanceTo, intersectWith
   - angleWith, getNormalVector
+
+## 참고 자료 링크
+- 선형대수학이란?
+  - https://namu.wiki/w/선형대수학
+- Transformation Matrix
+  - https://en.wikipedia.org/wiki/Transformation_matrix
+- 내적, 외적, 각도, Normal Vector 
+  - http://darkpgmr.tistory.com/121
