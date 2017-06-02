@@ -21,6 +21,7 @@
   - https://en.wikipedia.org/wiki/Transformation_matrix
 - 내적, 외적, 각도, Normal Vector 
   - http://darkpgmr.tistory.com/121
+  - https://ghebook.blogspot.kr/2010/07/vector.html
 - 거리
   - http://www.faqs.org/faqs/graphics/algorithms-faq/ 1.02
 - 교점
