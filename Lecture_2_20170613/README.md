@@ -1,4 +1,4 @@
-# 제 2강 - 사원수(Quaternioun)과 행렬(Matrix)
+# 제 2강 - 사원수(Quaternion)과 행렬(Matrix)
 ## 수업요약
 - 사원수의 특징을 이해한다.
 - 행렬의 계산법을 익힌다.
