@@ -15,7 +15,8 @@
 - 행렬
   - 행렬의 수학적 의미: https://ghebook.blogspot.kr/2011/06/matrix.html
 - 3차원 회전
-  - 행렬을 이용한 올일러 회전: http://blog.daum.net/aero2k/56
+  - 축을 나누어 회전: https://www.slideshare.net/cancan21st/ss-33502890
+  - 행렬을 이용한 오일러 회전: http://blog.daum.net/aero2k/56
   - 짐벌락: http://hoodymong.tistory.com/3
   - 사원수를 이용한 회전: http://showmiso.tistory.com/57
   
