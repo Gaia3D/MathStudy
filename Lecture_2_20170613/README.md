@@ -19,4 +19,5 @@
   - 행렬을 이용한 오일러 회전: http://blog.daum.net/aero2k/56
   - 짐벌락: http://hoodymong.tistory.com/3
   - 사원수를 이용한 회전: http://showmiso.tistory.com/57
+  - 코딩: http://www.faqs.org/faqs/graphics/algorithms-faq/ 5.01
   

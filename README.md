@@ -3,9 +3,9 @@
 
 
 ## 사용 교재
-* The Mathematics of GIS 
-  - https://www.slideshare.net/claudiomontoni/the-mathematics-of-gis
-  - GIS에서 하는 일들이 어떤 수학적 배경을 가지고 있는지 잘 성명되어 있습니다.
+* 전파거북이 블로그, 수학 파트 
+  - https://ghebook.blogspot.kr/search/label/수학
+  - 수학 및 기술에 대한 지식을 기초부터 고급까지 잘 정리해둔 고마운 블로그
 
 * comp.graphics.algorithms Frequently Asked Questions
   - http://www.faqs.org/faqs/graphics/algorithms-faq/
