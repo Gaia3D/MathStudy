@@ -26,6 +26,8 @@ public class Solution {
 		BasicOperation basicOperation = new BasicOperationImpl();
 		System.out.println("line1 + line2 = " + basicOperation.plus(line1, line2));
 		System.out.println("line1 - line2 = " + basicOperation.minus(line1, line2));
+		System.out.println("line1 ● line2 = " + basicOperation.dotProduct(line1, line2));
+		
 		
 		
 	}
