@@ -5,7 +5,10 @@
 // 대상 점이 삼각형의 변(edge) 위에 정확히 위치할 경우 outside로 판단했다.
 
 // solution 1.
-bool isPointInsideTriangle(double x1, y1, double x2, y2,double x3, y3, double x, y)
+bool isPointInsideTriangle(double x1, double y1,
+			   double x2, double y2,
+			   double x3, double y3,
+			   double x, double y)
 {
 	// v1 = (x2, y2) - (x1, y1)
 	// v2 = (x3, y3) - (x1, y1)
@@ -27,10 +30,10 @@ bool isPointInsideTriangle(double x1, y1, double x2, y2,double x3, y3, double x,
 }
 
 // solution 2.
-bool isPointInsideTriangle(double x1, y1,
-							double x2, y2,
-							double x3, y3,
-							double x, y)
+bool isPointInsideTriangle(double x1, double y1,
+			   double x2, double y2,
+			   double x3, double y3,
+			   double x, double y)
 {
 	// 삼각형의 각 변에 수직인 벡터 3개 각각에 
 	// 삼각형과 대상 점의 그림자를 드리운 후(프로젝션 후)
@@ -60,10 +63,10 @@ bool isPointInsideTriangle(double x1, y1,
 }
 
 // solution 3.
-bool isPointInsideTriangle(double x1, y1,
-							double x2, y2,
-							double x3, y3,
-							double x, y)
+bool isPointInsideTriangle(double x1, double y1,
+			   double x2, double y2,
+			   double x3, double y3,
+			   double x, double y)
 {
 	// 삼각형의 각 변의 시작점에서 끝점으로 이동할 때 
 	// 해당 변을 기준으로 오른쪽을 바깥이라고 정의하고
