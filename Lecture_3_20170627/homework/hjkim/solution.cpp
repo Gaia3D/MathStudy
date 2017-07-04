@@ -5,10 +5,7 @@
 // 대상 점이 삼각형의 변(edge) 위에 정확히 위치할 경우 outside로 판단했다.
 
 // solution 1.
-bool isPointInsideTriangle(double x1, y1,
-							double x2, y2,
-							double x3, y3,
-							double x, y)
+bool isPointInsideTriangle(double x1, y1, double x2, y2,double x3, y3, double x, y)
 {
 	// v1 = (x2, y2) - (x1, y1)
 	// v2 = (x3, y3) - (x1, y1)
@@ -20,8 +17,8 @@ bool isPointInsideTriangle(double x1, y1,
 	// 이 조건을 만족하면 대상 점은 삼각형 밖에 있다
 	
 	double denominator = (x2 - x1)*(y3 - y1) - (x3 - x1)*(y2 - y1);
-	double a = x * (y3 - y1) - y * (x3 - x1);
-	double b = -x * (y2 - y1) + y * (x2 - x1);
+	double a = ( x * (y3 - y1) - y * (x3 - x1) ) / denominator;
+	double b = ( -x * (y2 - y1) + y * (x2 - x1) ) / denominator;
 	
 	if(a <= 0.0 || a >= 1.0 || b <= 0.0 || b >= 1.0 || a+b >= 1.0)
 		return false;
@@ -53,9 +50,9 @@ bool isPointInsideTriangle(double x1, y1,
 	
 	if( (PointProjectionAlongEdge1 <= MinTriangleProjectionAlongEdge1 ||
 	     PointProjectionAlongEdge1 >= MaxTriangleProjectionAlongEdge1) ||
-		 (PointProjectionAlongEdge2 <= MinTriangleProjectionAlongEdge2 ||
+	    (PointProjectionAlongEdge2 <= MinTriangleProjectionAlongEdge2 ||
 	     PointProjectionAlongEdge2 >= MaxTriangleProjectionAlongEdge2) ||
-		 (PointProjectionAlongEdge3 <= MinTriangleProjectionAlongEdge3 ||
+	    (PointProjectionAlongEdge3 <= MinTriangleProjectionAlongEdge3 ||
 	     PointProjectionAlongEdge3 >= MaxTriangleProjectionAlongEdge3) )
 		 return false;
 	
@@ -79,8 +76,8 @@ bool isPointInsideTriangle(double x1, y1,
 	double pointOnLineEquation3 = (x - x3) * (y1 - y3) - (y - y3) * (x1 - x3);
 	
 	if( pointOnLineEquation1 >= 0.0 ||
-		pointOnLineEquation2 >= 0.0 ||
-		pointOnLineEquation3 >= 0.0 )
+	    pointOnLineEquation2 >= 0.0 ||
+	    pointOnLineEquation3 >= 0.0 )
 		return false;
 		
 	// 아래와 같이 테스트 해도 된다.
