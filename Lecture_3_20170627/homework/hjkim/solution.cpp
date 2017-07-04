@@ -5,7 +5,7 @@
 // 대상 점이 삼각형의 변(edge) 위에 정확히 위치할 경우 outside로 판단했다.
 
 // solution 1.
-bool isPointInsideTriangle(double x1, double y1,
+bool isPointInsideTriangle1(double x1, double y1,
 			   double x2, double y2,
 			   double x3, double y3,
 			   double x, double y)
@@ -30,7 +30,7 @@ bool isPointInsideTriangle(double x1, double y1,
 }
 
 // solution 2.
-bool isPointInsideTriangle(double x1, double y1,
+bool isPointInsideTriangle2(double x1, double y1,
 			   double x2, double y2,
 			   double x3, double y3,
 			   double x, double y)
@@ -63,7 +63,7 @@ bool isPointInsideTriangle(double x1, double y1,
 }
 
 // solution 3.
-bool isPointInsideTriangle(double x1, double y1,
+bool isPointInsideTriangle3(double x1, double y1,
 			   double x2, double y2,
 			   double x3, double y3,
 			   double x, double y)
