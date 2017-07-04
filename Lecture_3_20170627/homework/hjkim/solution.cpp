@@ -1,4 +1,3 @@
-
 // 삼각형의 세 꼭지점 : (x1, y1), (x2, y2), (x3, y3)
 // 테스트 대상 점   : (x, y)
 // 참고 : 위에서 봤을 때 꼭지점의 순서가 반시계 방향
@@ -37,7 +36,8 @@ bool isPointInsideTriangle2(double x1, double y1,
 {
 	// 삼각형의 각 변에 수직인 벡터 3개 각각에 
 	// 삼각형과 대상 점의 그림자를 드리운 후(프로젝션 후)
-	// 그림자가 겹치지 않을 경우 대상 점은 삼각형 밖에 있다.
+	// 그림자가 겹치지 않는 경우가 1번이라도 발생하면
+	// 대상 점은 삼각형 밖에 있다.
 	
 	double MaxTriangleProjectionAlongEdge1 = x1*y2 - x2*y1;
 	double MinTriangleProjectionAlongEdge1 = x3*(y2 - y1) - y3*(x2 - x1);
