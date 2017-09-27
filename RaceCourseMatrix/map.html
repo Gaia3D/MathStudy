@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Race Course Map</title>
+
+    <style>
+        .map {position: relative; padding:0; border:0;}
+        .car {position: absolute; top: 100px; left: 100px;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js"></script>
+    <script src="RaceCourceMap.js"></script>
+</head>
+<body>
+<h2>Race Course Map</h2>
+<div>
+    [다음지도 좌표계]
+    X: <input type="text" id="x" value="179885.071540441">&nbsp;&nbsp;
+    Y: <input type="text" id="y" value="416501.594450942">&nbsp;&nbsp;
+    <button id="btn1" onclick="onBtn1">MOVE!</button>
+    <br/>
+    [GPS 경위도]
+    Lon: <input type="text" id="lon" value="126.77328249010948">&nbsp;&nbsp;
+    Lat: <input type="text" id="lat" value="37.24747306062519">&nbsp;&nbsp;
+    <button id="btn2">MOVE!</button>
+    <br/>
+    <button id="btn3"> Auto Move START >> </button>
+    <br/>
+</div>
+<div class="map">
+    <img src="CourseMap.jpg" >
+    <img src="car.png" class="car" >
+</div>
+</body>
+</html>
